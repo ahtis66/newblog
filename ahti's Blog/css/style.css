@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 30px;
+    display: flex;
+}
+.nav-left img{
+    height: 50px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0px 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    text-decoration: underline;
+}
+.content {
+    display: flex;
+    height: 100%px;
+    /* background: rgb(73, 73, 201); */
+    margin-top: 52px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content p{
+    font-size: 18px;
+}
+.content::before{
+  content: "";
+  position: absolute;
+  background: url(/images/home.spg.jpg);
+  width: 100%;
+  height: inherit;
+  opacity: 0.20;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-left {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    z-index: 1;
+}
+
+.content-right {
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 255px;
+    border: 1px solid black;
+    border-radius: 200px;
+}
+.home-articles{
+    padding: 10px;
+   margin-top: 23px;
+   
+   position: relative;
+}
+.year-box{
+    position: absolute;
+    /* background-color: red; */
+    width: 234px;
+    height: 255px;
+    right: 24px;
+    top: 100px;
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0px 25px;
+}
+.home-article-content a{
+    color: black;
+    text-decoration: none;
+}
+.home-article-content a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer {
+    height: 50px;
+    background: rgb(230, 67, 67);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: black;
+}

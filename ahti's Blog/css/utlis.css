@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto:wght@300;400;500&family=Sometype+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto:wght@300;400;500&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1:dark;
+    --font2:normal;
+}
+.font-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.max-width-1{
+  max-width: 80vw;
+}
+.max-width-2{
+    max-width: 733px;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.mx-2{
+    margin-left:12px ;
+    margin-right: 12px;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+  padding: 5px 8px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-input{
+    padding: 5px 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-box input,textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 12px 0px;
+    border: 2px solid rgb(123, 18, 133);
+    font-size: 18px;
+    border-radius: 5px;
+}

@@ -1,0 +1,19 @@
+.contact-content{
+    padding: 9px;
+    height: 100vh;
+    /* background: rgb(73, 73, 201); */
+    margin-top: 32px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content::before{
+    content: "";
+    position: absolute;
+    background: url(/images/home.spg.jpg);
+    width: 100%;
+    height: inherit;
+    opacity: 0.20;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
